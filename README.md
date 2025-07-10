@@ -93,6 +93,6 @@ The design prioritises simplicity and usability, with a mobile-first layout that
 
 The interface was built iteratively using feedback and informal testing. The final prototype layout is shown below:
 
-![ToDone Prototype](link-to-your-image.png)
+![ToDone Prototype](https://github.com/Ziad-NUL-Y3-SE/ToDone/blob/main/ToDone-GitHub-Board.png?raw=true)
 
-> _Replace the placeholder above with the actual GitHub image URL once the screenshot has been uploaded._
+
