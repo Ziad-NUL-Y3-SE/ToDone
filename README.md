@@ -126,4 +126,80 @@ The board helped maintain focus and ensure all MVP components were planned and t
 
 ![ToDone Prototype](https://github.com/Ziad-NUL-Y3-SE/ToDone/blob/main/ToDone-GitHub-Board.png?raw=true)
 
+## SECTION 4 – MVP DEVELOPMENT NARRATIVE
+
+The MVP (Minimum Viable Product) for ToDone was built incrementally using HTML, CSS, and JavaScript, following a simple mobile-first architecture. The aim was to ensure task creation, deletion, and clearing functions worked reliably in a responsive user interface.
+
+Each feature was developed and tested on its own branch, using the GitHub issue board to track progress.
+
+---
+
+### 🔧 Step 1 – Basic Structure (HTML Skeleton)
+
+The project began with a semantic HTML layout including:
+
+- A `<header>` containing the app title
+- An `<input>` field for new tasks
+- A `<button>` to add tasks
+- A `<ul>` list to display task items
+- A “Clear All” button at the bottom
+
+This provided the foundational structure for styling and interaction logic.
+
+---
+
+### 🎨 Step 2 – Styling the Interface (CSS)
+
+The next step was applying responsive styling using CSS:
+
+- Mobile-first layout with centralised content
+- Rounded borders and shadows for input fields and buttons
+- Hover and active effects for better interaction feedback
+- Consistent spacing and readable fonts
+- Visual indicators for task state (e.g., checkbox toggles)
+
+This ensured the UI met accessibility and usability goals.
+
+---
+
+### 🧠 Step 3 – Core Functionality (JavaScript)
+
+JavaScript was used to introduce dynamic behaviour:
+
+- **Add Task** – Inserts a new list item into the task list
+- **Mark Complete** – Toggles task status when checkbox is clicked
+- **Delete Task** – Removes individual tasks using the bin icon
+- **Clear All** – Removes all tasks when clicked
+
+Each function was written in pure JavaScript to keep the implementation simple and dependency-free.
+
+---
+
+### 🧪 Step 4 – Manual Testing
+
+After each feature was built, the app was tested manually in the browser:
+
+- Confirmed tasks could be added, removed, and toggled
+- Checked input validation (e.g., empty input handling)
+- Ensured mobile responsiveness using browser dev tools
+- Ran cross-browser checks on Chrome, Edge, and Firefox
+
+This validated the MVP was working as intended.
+
+---
+
+### 🔁 Incremental Delivery with Git
+
+Each development step was managed with the following Git workflow:
+
+1. **Created a feature branch** (e.g., `feature/add-task-button`)
+2. **Committed work regularly** with descriptive messages
+3. **Opened pull requests** into `main` once a feature was complete
+4. **Reviewed and merged** using GitHub interface
+
+This aligned with best practice agile workflows, ensuring traceability and easy rollback if required.
+
+---
+
+The MVP was completed after all four core features were working reliably on both desktop and mobile. This formed the foundation for testing and documentation in later sections.
 
