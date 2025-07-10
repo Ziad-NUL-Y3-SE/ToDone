@@ -50,3 +50,49 @@ The project reinforces industry-relevant capabilities in iterative delivery, aut
 ### 🔹 Learning Outcome Alignment
 
 ToDone offers direct opportunities to demonstrate core software engineering principles — from modular design and testable architecture, to agile planning, version control, and automated validation — in line with the learning outcomes of the Software Engineering module (NCHNAP688).
+
+## SECTION 2 – DESIGN AND PROTOTYPE
+
+### Tools Used
+
+The ToDone prototype was created using **Figma**, a browser-based interface design tool widely used in professional software development. Figma was selected for its ease of use, support for real-time editing, and strong alignment with UI/UX best practices. Its ability to produce pixel-perfect, responsive mockups made it suitable for designing a clean, mobile-first interface.
+
+### Key UI Components
+
+The ToDone prototype includes the following interface elements:
+
+- **Header Bar**  
+  Displays the name of the app clearly at the top for branding and orientation.
+
+- **Task Input Field**  
+  A single-line input where users can type the description of a task.
+
+- **Add Task Button [+]**  
+  Positioned next to the input field, this button allows users to submit tasks efficiently.
+
+- **Task List Section**  
+  Displays each added task in a row format, including:
+  - A checkbox to toggle task completion
+  - A delete icon to remove the task from the list
+
+- **Clear All Button**  
+  Positioned at the bottom, this allows users to quickly remove all completed tasks for convenience.
+
+### Design Rationale
+
+The design prioritises simplicity and usability, with a mobile-first layout that supports quick interactions and minimal friction. The visual hierarchy is clear, separating task entry, task management, and overall list controls into distinct areas. Icons and button placements are intuitive to enhance the user experience.
+
+### Usability and Accessibility
+
+- The app uses high-contrast colours for readability.
+- The layout is designed to be responsive across mobile and tablet screens.
+- Interactive elements are touch-friendly, with adequate spacing.
+- The prototype avoids unnecessary animations or distractions to reduce cognitive load.
+
+### Figma Prototype
+
+The interface was built iteratively using feedback and informal testing. The final prototype layout is shown below:
+
+![ToDone Prototype](link-to-your-image.png)
+
+> _Replace the placeholder above with the actual GitHub image URL once the screenshot has been uploaded._
