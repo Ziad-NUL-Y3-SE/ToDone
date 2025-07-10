@@ -203,3 +203,51 @@ This aligned with best practice agile workflows, ensuring traceability and easy 
 
 The MVP was completed after all four core features were working reliably on both desktop and mobile. This formed the foundation for testing and documentation in later sections.
 
+## SECTION 5 – TEST-DRIVEN DEVELOPMENT (TDD) AND CI/CD SETUP
+
+### Test-Driven Development (TDD)
+
+ToDone adopted a simplified TDD workflow to ensure each function was reliable and regression-free.
+
+Tests were written *before* implementation to define expected behaviour. This approach helped validate logic and identify edge cases early in the development cycle.
+
+Key tests included:
+
+- **Adding Tasks** – Confirmed that a new task is appended to the list
+- **Completing Tasks** – Validated checkbox toggling changes task status
+- **Deleting Tasks** – Ensured deleted tasks are removed from the DOM
+- **Clearing Tasks** – Checked that “Clear All” removes completed items only
+- **Input Validation** – Confirmed that empty strings do not create tasks
+
+Tests were written using pure JavaScript and embedded directly in the project, providing lightweight assurance without additional libraries.
+
+> ✅ Test design prioritised clarity and relevance over complexity, in line with the project’s minimalist architecture.
+
+---
+
+### CI/CD Setup with GitHub Actions
+
+To support reliable deployment and future scalability, a basic CI/CD pipeline was configured using **GitHub Actions**.
+
+The `.github/workflows/ci.yml` file included steps for:
+
+- ✅ Checking code for errors using ESLint (if added)
+- ✅ Running test scripts
+- ✅ Verifying build success (optional for more advanced deployments)
+
+This setup ensured that any push to the `main` branch automatically triggered:
+
+1. **Linting and Testing** – Immediate feedback on broken code
+2. **Build Verification** – Prepared the repo for future integration with static hosting (e.g., GitHub Pages or Netlify)
+
+---
+
+### Benefits of CI/CD
+
+Implementing CI/CD brought several advantages:
+
+- 🛠 **Rapid Feedback** – Issues identified during pull requests, before merging
+- 🔁 **Repeatability** – Ensured every commit was tested in a clean environment
+- 🚀 **Scalability** – Laid the groundwork for deployment automation
+
+The GitHub Actions workflow supported a professional engineering mindset, mirroring practices used in workplace software delivery pipelines.
