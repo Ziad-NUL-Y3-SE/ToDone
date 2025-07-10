@@ -92,6 +92,7 @@ The design prioritises simplicity and usability, with a mobile-first layout that
 ### Figma Prototype
 
 The interface was built iteratively using feedback and informal testing. The final prototype layout is shown below:
+![ToDone Prototype](ToDone-Prototype.png)
 
 ## SECTION 3 – AGILE PROJECT PLANNING
 
