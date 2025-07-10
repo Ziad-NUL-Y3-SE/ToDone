@@ -251,3 +251,54 @@ Implementing CI/CD brought several advantages:
 - 🚀 **Scalability** – Laid the groundwork for deployment automation
 
 The GitHub Actions workflow supported a professional engineering mindset, mirroring practices used in workplace software delivery pipelines.
+
+---
+
+## SECTION 6 – USER & TECHNICAL DOCUMENTATION
+
+### 👤 User Guide
+
+ToDone is a simple to-do list web app optimised for mobile and desktop use. It requires no login or installation.
+
+**Basic Usage:**
+1. **Add a Task** – Type into the text field and click the ➕ button to add it to the list.
+2. **Complete a Task** – Click the circle checkbox to mark a task as done.
+3. **Delete a Task** – Use the 🗑️ icon to remove a task from the list.
+4. **Clear All Tasks** – Use the “Clear All” button to remove all tasks.
+
+The app works in modern browsers like Chrome, Edge, Firefox, and Safari. It automatically adapts to mobile screen sizes.
+
+---
+
+### 🛠️ Technical Overview
+
+The app was built using:
+- `HTML` for page structure
+- `CSS` for responsive styling
+- `JavaScript` for interactivity
+
+The HTML contains:
+- A `<header>` for the app title
+- An `<input>` for task entry
+- A `<button>` to add tasks
+- A `<ul>` for displaying tasks
+- A “Clear All” button at the bottom
+
+The CSS uses:
+- Flexbox and media queries for mobile-first responsiveness
+- Visual indicators for task states (e.g., toggling checkbox style)
+- Rounded cards and buttons for clean UI design
+
+The JavaScript handles:
+- Adding, deleting, and completing tasks
+- Updating the DOM in real-time
+- Validating input and preventing empty entries
+
+---
+
+### 🔁 Maintenance Tips
+
+- Source files follow separation of concerns: `index.html`, `style.css`, and `script.js`.
+- Future improvements may include localStorage, animation transitions, and task filters.
+- All code is commented and uses semantic naming for maintainability.
+
