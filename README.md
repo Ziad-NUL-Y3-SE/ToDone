@@ -93,6 +93,36 @@ The design prioritises simplicity and usability, with a mobile-first layout that
 
 The interface was built iteratively using feedback and informal testing. The final prototype layout is shown below:
 
+## SECTION 3 – AGILE PROJECT PLANNING
+
+### Agile Methodology and Approach
+
+The ToDone project adopted an Agile-inspired approach, using a simplified **Kanban workflow** through GitHub Projects. This allowed for real-time task visibility, prioritisation, and incremental delivery. Each ticket represents a discrete unit of work, aligned with the agile principle of **"one task = one feature"**.
+
+Tasks were organised into three columns:
+- **To Do** – items not yet started
+- **In Progress** – currently being developed
+- **Done** – fully implemented and committed
+
+This layout supported quick stand-up reviews, self-organisation, and ongoing prioritisation, simulating agile routines. While no formal sprints or retrospectives were used, tasks were tackled iteratively based on logical build order and difficulty.
+
+### Project Management Tool: GitHub Projects Board
+
+A GitHub Project board was used to plan and track progress across 8 distinct issues. Each issue was created as a **functional or non-functional requirement** and mapped to a GitHub ticket. Tasks included both UI development and project operations (e.g., CI setup).
+
+Key benefits of using GitHub Projects:
+- Clear visual status of feature progress
+- Seamless integration with GitHub issues, pull requests, and branches
+- Enables traceability and a lightweight planning cadence
+
+The planning board supports asynchronous collaboration and mirrors real-world engineering practice, especially in distributed or solo developer environments.
+
+### Screenshot of Planning Board
+
+![ToDone GitHub Board](ToDone-GitHub-Board.png)
+
+The board helped maintain focus and ensure all MVP components were planned and tracked logically, using the agile principle of **incremental delivery and continuous improvement**.
+
 ![ToDone Prototype](https://github.com/Ziad-NUL-Y3-SE/ToDone/blob/main/ToDone-GitHub-Board.png?raw=true)
 
 
