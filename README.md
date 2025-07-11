@@ -329,4 +329,24 @@ Each branch followed a consistent delivery workflow:
    ```bash
    git checkout -b feature/clear-all
 
+---
+
+## SECTION 8 – USER AND TECHNICAL DOCUMENTATION
+
+### How to Use
+
+ToDone is a lightweight to-do list app designed for mobile and desktop users. You can:
+- Add a new task using the input bar and **“+”** button.
+- Mark tasks as complete by checking the box.
+- Delete individual tasks with the trash bin icon.
+- Clear all tasks with the **“Clear All”** button.
+- Tasks are saved locally in the browser using `localStorage`.
+
+### How to Run Locally
+
+To run ToDone locally on your machine:
+
+```bash
+git clone https://github.com/Ziad-NUL-Y3-SE/ToDone.git
+cd ToDone
 
