@@ -350,3 +350,50 @@ To run ToDone locally on your machine:
 git clone https://github.com/Ziad-NUL-Y3-SE/ToDone.git
 cd ToDone
 
+SECTION 9 – TESTING
+The ToDone project includes basic unit testing using the Jest testing framework. As installation of Node.js was not permitted on the user's work laptop, all test development and execution were performed using Replit, a free browser-based IDE that supports JavaScript and testing tools.
+
+✅ Unit Test Focus
+Two key functions of the app were isolated for testing:
+
+addTask(taskList, text): adds a new task to a list
+
+deleteTask(taskList, index): removes a task by index
+
+These functions were moved to a separate file (script.js) to make them testable.
+
+🧪 Test Code
+A dedicated test file script.test.js was created with the following test case:
+const { addTask, deleteTask } = require('./script');
+
+test('adds a new task', () => {
+  const taskList = [];
+  const newTaskList = addTask(taskList, 'Test Task');
+  expect(newTaskList.length).toBe(1);
+  expect(newTaskList[0].text).toBe('Test Task');
+});
+
+In script.js, the logic was structured like this:
+function addTask(taskList, text) {
+  const task = { text: text, completed: false };
+  taskList.push(task);
+  return taskList;
+}
+
+function deleteTask(taskList, index) {
+  taskList.splice(index, 1);
+  return taskList;
+}
+
+module.exports = { addTask, deleteTask };
+📦 package.json Setup
+Jest was configured using the following entry in package.json:
+"scripts": {
+  "test": "jest"
+},
+"devDependencies": {
+  "jest": "^29.7.0"
+}
+✅ Result
+The test confirmed that a new task is added correctly to the list and the output meets expectations. The test passed successfully in Replit using the command:
+npm test
