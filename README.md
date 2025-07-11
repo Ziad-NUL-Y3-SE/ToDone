@@ -302,3 +302,31 @@ The JavaScript handles:
 - Future improvements may include localStorage, animation transitions, and task filters.
 - All code is commented and uses semantic naming for maintainability.
 
+## SECTION 7 – VERSION CONTROL AND FEATURE DELIVERY
+
+ToDone used Git version control throughout development to manage progress, isolate changes, and support collaborative software engineering practices.
+
+### Git Branch Workflow
+
+Each major feature was developed on a dedicated Git branch, then merged to `main` after testing and review:
+
+| Branch Name               | Purpose                                |
+|--------------------------|----------------------------------------|
+| `feature/add-task-button`| Add button to insert new tasks         |
+| `feature/checkbox-toggle`| Handle toggling of completed tasks     |
+| `feature/delete-task`    | Add ability to delete individual tasks |
+| `feature/clear-all`      | Remove all tasks with one click        |
+| `feature/responsive-css` | Style the interface responsively       |
+| `feature/readme-docs`    | Draft README content and documentation |
+| `feature/section-7`      | Add version control delivery section   |
+
+### Workflow Steps
+
+Each branch followed a consistent delivery workflow:
+
+1. **Create feature branch**  
+   Example:
+   ```bash
+   git checkout -b feature/clear-all
+
+
