@@ -397,3 +397,32 @@ Jest was configured using the following entry in package.json:
 ✅ Result
 The test confirmed that a new task is added correctly to the list and the output meets expectations. The test passed successfully in Replit using the command:
 npm test
+
+## SECTION 10 – EVALUATION
+
+The ToDone project successfully demonstrated the end-to-end software engineering process, from ideation to delivery. This lightweight to-do list application was designed and developed using modern front-end technologies and agile project management techniques. Through this project, I applied key professional practices including feature-driven development, prototyping, CI/CD, and user-centred design.
+
+### ✅ What Worked Well
+- **Agile Workflow:** The use of GitHub Projects with a Kanban board provided structure, accountability, and clear visibility of progress across tasks.
+- **Modular Code Design:** The codebase was logically separated into HTML, CSS, and JavaScript files, ensuring readability and maintainability.
+- **Responsive UI:** The app functions well across devices, with styling optimised for mobile-first users.
+- **Testing and CI/CD Setup:** Although limited by tooling, the implementation of Jest tests in Replit and GitHub Actions CI showed an understanding of verification principles.
+- **Documentation:** Each section of the README was kept clear, technically descriptive, and aligned with the brief’s structure.
+
+### 🧠 Lessons Learned
+- **Version Control Confidence:** Creating and managing feature branches improved my confidence in using Git and reinforced best practices like isolation and frequent commits.
+- **TDD in Context:** I learned how to decouple logic for testability, especially when working without a framework. This will benefit future projects with more complex back-end logic.
+- **Iterative Improvements:** The value of breaking down features into individual branches and merging them gradually helped maintain focus and test each step in isolation.
+
+### ⚠️ Areas for Improvement
+- **JavaScript Complexity:** Future iterations could introduce localStorage support or modular JavaScript architecture (e.g., classes or modules).
+- **Accessibility:** While the interface is usable, further testing with screen readers and contrast tools would improve WCAG alignment.
+- **Deployment Pipelines:** A more robust deployment process (e.g., Netlify with build validation or release tagging) could enhance professional deployment practices.
+
+### 🔄 Next Steps
+- Implement localStorage for persistent task saving
+- Introduce drag-and-drop functionality using a library like SortableJS
+- Add voice command input for improved accessibility
+- Create a dark mode toggle and save preference in localStorage
+
+In summary, this project allowed me to demonstrate a wide range of software engineering skills and has provided a foundation I can build upon in both academic and workplace contexts.
